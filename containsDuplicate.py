@@ -1,4 +1,9 @@
 
+# Create an empty dictionary 
+# Loop through each number in nums.
+# If the number is already in the dictionary, return True (duplicate found). 
+# Otherwise, add it to the dictionary. 
+# return False.
 class Solution:
   def containsDuplicate(self, nums: list[int]) -> bool:
       freq = {}
